@@ -118,3 +118,35 @@ header {
   font-size: 35px;
   color: #fe5f55;
 }
+
+.distance-pace {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  height: 200px;
+  width: 80%;
+}
+
+.distance-div {
+  border-right: 6px solid #b8d8d8;
+}
+
+.distance-div, .pace-div {
+  margin-top: 25px;
+  width: 40%;
+  text-align: center;
+}
+
+.distance-miles, .pace-bar {
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 100px;
+  color: #eef5db;
+}
+
+.distance-text, .pace-text {
+  padding-top: 15px;
+  color: #fe5f55;
+  font-weight: 300;
+  font-size: 30px;
+}
