@@ -1,0 +1,176 @@
+body::before {
+  position: fixed;
+  content: '';
+  left: 0;
+  right: 0;
+  z-index: -1;
+  min-height: 100vh;
+  background: url('./Images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  filter: blur(3.5px);
+}
+
+body {
+  left: 0;
+  right: 0;
+  z-index: 0;
+  position: relative;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: rgba(79, 99, 103, 0.7);
+  height: 600px;
+}
+
+.facebook, .twitter {
+  float: right;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.profile-image {
+  border: 2px solid #eef5db;
+  border-radius: 50%;
+}
+
+.profile-wrapper, .last-workout {
+  margin: auto;
+  text-align: center;
+}
+
+.profile-wrapper {
+  width: 50%;
+  color: #eef5db;
+}
+
+.name {
+  padding: 20px;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.location {
+  padding: 20px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.last-workout {
+  background-color: rgba(184, 216, 216, 0.7);
+  color: #4f6367;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.last-workout-text {
+  padding: 34px;
+}
+
+.workout-details {
+  background-color: #4f6367;
+  height: 270px;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.workout-type {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  color: #fe5f55;
+}
+
+.workout-stats {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  color: #b8d8d8;
+}
+
+.stats {
+  padding-top: 75px;
+}
+
+.start-workout {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 250px;
+  margin: auto;
+  width: 90%;
+  border-bottom: 6px solid #b8d8d8;
+}
+
+.workout-time {
+  padding-top: 15px;
+  font-weight: 700;
+  font-size: 125px;
+  color: #eef5db;
+}
+
+.workout-duration {
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 35px;
+  color: #fe5f55;
+}
+
+.distance-pace {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  height: 200px;
+  width: 90%;
+}
+
+.distance-div {
+  border-right: 6px solid #b8d8d8;
+}
+
+.distance-div, .pace-div {
+  margin-top: 25px;
+  width: 40%;
+  text-align: center;
+}
+
+.distance-miles, .pace-bar {
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 100px;
+  color: #eef5db;
+}
+
+.distance-text, .pace-text {
+  padding-top: 15px;
+  color: #fe5f55;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.start-workout-button {
+  margin: 6% 5% 4% 5%;
+  width: 90%;
+  height: 130px;
+  background-color: #fe5f55;
+  color: #eef5db;
+  font-weight: 700;
+  font-size: 53px;
+  border-radius: 25px;
+  border: none;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  background-color: #4f6367;
+  border-top: 2px solid #eef5db;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
