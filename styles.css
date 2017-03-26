@@ -101,7 +101,7 @@ header {
   text-align: center;
   height: 250px;
   margin: auto;
-  width: 80%;
+  width: 90%;
   border-bottom: 6px solid #b8d8d8;
 }
 
@@ -124,7 +124,7 @@ header {
   margin: auto;
   justify-content: center;
   height: 200px;
-  width: 80%;
+  width: 90%;
 }
 
 .distance-div {
@@ -149,4 +149,28 @@ header {
   color: #fe5f55;
   font-weight: 300;
   font-size: 30px;
+}
+
+.start-workout-button {
+  margin: 6% 5% 4% 5%;
+  width: 90%;
+  height: 130px;
+  background-color: #fe5f55;
+  color: #eef5db;
+  font-weight: 700;
+  font-size: 53px;
+  border-radius: 25px;
+  border: none;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  background-color: #4f6367;
+  border-top: 2px solid #eef5db;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
