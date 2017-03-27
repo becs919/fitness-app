@@ -21,7 +21,7 @@ body {
 
 header {
   background-color: rgba(79, 99, 103, 0.7);
-  height: 600px;
+  /*height: 600px;*/
 }
 
 .facebook, .twitter {
@@ -30,9 +30,16 @@ header {
 
 .icon {
   padding: 10px;
+  height: 25px;
+}
+
+.back-icon {
+  height: 15px;
 }
 
 .profile-image {
+  height: 110px;
+  margin-top: -10px;
   border: 2px solid #eef5db;
   border-radius: 50%;
 }
@@ -48,74 +55,85 @@ header {
 }
 
 .name {
-  padding: 20px;
+  width: 100%;
+  padding-top: 5px;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 20px;
 }
 
 .location {
-  padding: 20px;
+  padding: 8px 0 10px 0;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 12px;
+}
+
+.home-icon {
+  height: 12px;
 }
 
 .last-workout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(184, 216, 216, 0.7);
   color: #4f6367;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 20px;
+  height: 35px;
 }
 
 .last-workout-text {
-  padding: 34px;
+  padding: 5px;
 }
 
 .workout-details {
   background-color: #4f6367;
-  height: 270px;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 16px;
 }
 
 .workout-type {
   display: flex;
   justify-content: space-around;
-  padding-top: 25px;
+  padding-top: 10px;
   color: #fe5f55;
 }
 
 .workout-stats {
   display: flex;
   justify-content: space-around;
-  padding-top: 10px;
+  padding: 5px 0;
   color: #b8d8d8;
 }
 
 .stats {
-  padding-top: 75px;
+  padding-top: 22px;
+}
+
+.workout-type-icon {
+  height: 60px;
 }
 
 .start-workout {
   display: flex;
+  padding-bottom: 10px;
   justify-content: center;
   text-align: center;
-  height: 250px;
   margin: auto;
   width: 90%;
-  border-bottom: 6px solid #b8d8d8;
+  border-bottom: 2px solid #b8d8d8;
 }
 
 .workout-time {
-  padding-top: 15px;
   font-weight: 700;
-  font-size: 125px;
+  font-size: 65px;
   color: #eef5db;
 }
 
 .workout-duration {
-  padding-top: 20px;
+  padding-top: 5px;
   font-weight: 300;
-  font-size: 35px;
+  font-size: 15px;
   color: #fe5f55;
 }
 
@@ -123,24 +141,23 @@ header {
   display: flex;
   margin: auto;
   justify-content: center;
-  height: 200px;
   width: 90%;
 }
 
 .distance-div {
-  border-right: 6px solid #b8d8d8;
+  border-right: 2px solid #b8d8d8;
 }
 
 .distance-div, .pace-div {
-  margin-top: 25px;
+  margin-top: 10px;
   width: 40%;
   text-align: center;
 }
 
 .distance-miles, .pace-bar {
-  padding-top: 10px;
+  padding-top: 20px;
   font-weight: 700;
-  font-size: 100px;
+  font-size: 45px;
   color: #eef5db;
 }
 
@@ -148,18 +165,18 @@ header {
   padding-top: 15px;
   color: #fe5f55;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .start-workout-button {
   margin: 6% 5% 4% 5%;
   width: 90%;
-  height: 130px;
+  height: 40px;
   background-color: #fe5f55;
   color: #eef5db;
   font-weight: 700;
-  font-size: 53px;
-  border-radius: 25px;
+  font-size: 20px;
+  border-radius: 15px;
   border: none;
 }
 
@@ -167,10 +184,20 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 200px;
   background-color: #4f6367;
   border-top: 2px solid #eef5db;
   bottom: 0;
   left: 0;
   right: 0;
+  color: #eef5db;
+}
+
+.footer-icon {
+  height: 33px;
+  padding: 10px;
+}
+
+.bottom-nav h5 {
+  text-align: center;
+  padding-bottom: 10px;
 }
