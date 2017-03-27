@@ -24,6 +24,80 @@ header {
   /*height: 600px;*/
 }
 
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #4f6367;
+  color: #eef5db;
+  float: left;
+  height: 100vh;
+  width: 30%;
+  text-align: center;
+}
+
+.profile-wrapper-desktop {
+  padding-top: 30%;
+}
+
+.profile-image-desktop {
+  height: 150px;
+  border: 2px solid #eef5db;
+  border-radius: 50%;
+}
+
+.name-desktop {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.location-desktop {
+  padding-top: 15px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.home-icon-desktop {
+  height: 20px;
+}
+
+.nav-ul {
+  padding-top: 20px;
+  width: 100%;
+}
+
+li {
+  padding: 20px;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.selected {
+  font-weight: 700;
+  background-color: #fe5f55;
+}
+
+
+
+
+
+
+/*DESKTOP MEDIA QUERY*/
+@media (max-width: 600px) {
+  .desktop {
+    display: none;
+  }
+}
+
+/*MOBILE MEDIA QUERY*/
+@media (min-width: 600px) {
+  .mobile {
+    display: none;
+  }
+}
+
 .facebook, .twitter {
   float: right;
 }
