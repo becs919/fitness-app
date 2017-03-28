@@ -21,7 +21,129 @@ body {
 
 header {
   background-color: rgba(79, 99, 103, 0.7);
-  /*height: 600px;*/
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #4f6367;
+  color: #eef5db;
+  float: left;
+  height: 100vh;
+  width: 30%;
+  text-align: center;
+}
+
+.profile-wrapper-desktop {
+  padding-top: 25%;
+}
+
+.profile-image-desktop {
+  height: 150px;
+  border: 2px solid #eef5db;
+  border-radius: 50%;
+}
+
+.name-desktop {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.location-desktop {
+  padding-top: 15px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.home-icon-desktop {
+  height: 20px;
+}
+
+.nav-ul {
+  padding-top: 30px;
+  width: 100%;
+}
+
+li {
+  padding: 20px;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.selected {
+  font-weight: 700;
+  background-color: #fe5f55;
+}
+
+.top-header {
+  display: flex;
+  background-color: #b8d8d8;
+  color: #4f6367;
+  height: 55px;
+  font-size: 25px;
+  font-weight: 700;
+  width: 70%;
+  float: right;
+  justify-content: center;
+  align-items: center;
+}
+
+.slash-span {
+  color: #fe5f55
+}
+
+.back-icon-desktop {
+  height: 20px;
+}
+
+/*FOOTER DESKTOP*/
+.footer-desktop {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  height: 80px;
+  background-color: #b8d8d8;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-div {
+  padding-top: 10px;
+  font-weight: 700;
+  color: black;
+  font-size: 10px;
+}
+
+.footer-icon-desktop {
+  height: 50px;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+
+.active-mins {
+  padding: 15px 0px 5px 0px;
+}
+
+
+
+
+
+/*DESKTOP MEDIA QUERY*/
+@media (max-width: 600px) {
+  .desktop {
+    display: none;
+  }
+}
+
+/*MOBILE MEDIA QUERY*/
+@media (min-width: 600px) {
+  .mobile {
+    display: none;
+  }
 }
 
 .facebook, .twitter {
