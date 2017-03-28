@@ -97,6 +97,12 @@ li {
   color: #fe5f55
 }
 
+.desktop-wrapper::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
 .back-icon-desktop {
   height: 20px;
 }
@@ -120,10 +126,15 @@ li {
 }
 
 .recent-workouts-div {
+  position: relative;
+  height: 120px;
+  min-width: 200px;
   background-color: #fff;
   opacity: .6;
   font-weight: 700;
   margin-top: 10px;
+  font-size: 14px;
+  padding: 15px;
 }
 
 .recent-workouts-section h3 {
@@ -141,22 +152,36 @@ li {
 }
 
 .recent-workouts-div h2 {
+  font-size: 16px;
   text-transform: uppercase;
 }
 
+.activity {
+  font-size: 10px;
+  padding-bottom: 15px;
+}
+
 .workout-icon {
-  height: 30px;
+  position: absolute;
+  top: 40%;
+  right: 10px;
+  height: 40px;
 }
 
 .social-media {
-  height: 10px;
+  position: absolute;
+  height: 15px;
 }
 
-.workout-icon {
-  height: 50px;
+.facebook {
+  top: 10px;
+  right: 10px;
 }
 
-
+.twitter {
+  top: 10px;
+  right: 30px;
+}
 
 /*FOOTER DESKTOP*/
 .footer-desktop {
