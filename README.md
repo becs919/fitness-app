@@ -1,8 +1,12 @@
 # fitness-app
 
-## Final Comp 
+## Final Product
+Mobile 
 ![Imgur](http://i.imgur.com/w2NFIRLm.png)
+Ipad
 ![Imgur](http://i.imgur.com/Jl3jNCYm.png)
+Desktop
+
 
 ![Imgur](http://i.imgur.com/YpXfno8.png)
 ![Imgur](http://i.imgur.com/wJzY7iT.png)
