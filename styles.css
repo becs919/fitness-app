@@ -132,9 +132,9 @@ li:hover {
 .recent-workouts-div {
   position: relative;
   height: 120px;
-  min-width: 200px;
-  background-color: #fff;
-  opacity: .6;
+  /*min-width: 200px;*/
+  width: 70%;
+  background-color: rgba(255,255,255, 0.6);
   font-weight: 700;
   margin-top: 10px;
   font-size: 14px;
@@ -143,25 +143,37 @@ li:hover {
 
 .goal {
   position: relative;
-  /*height: 120px;*/
+  height: 80px;
   display: flex;
   align-items: center;
   min-width: 200px;
-  background-color: #fff;
-  opacity: .6;
+  background-color: rgba(255,255,255, 0.6);
   font-weight: 700;
   margin-top: 10px;
   font-size: 14px;
   padding: 15px 5px 15px 15px;
 }
 
+.goal h3 {
+  position: absolute;
+  left: 25px;
+  top: 42px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+
+.goal
+.lower-percent {
+  color: #4f6367;
+}
 
 
 .recent-workouts-div:hover, .goal:hover {
-  opacity: 1;
+  background-color: rgba(255,255,255, 1);
 }
 
-.recent-workouts-section h3 {
+.recent-workouts-section h3, .goals-wrapper h3 {
   padding-bottom: 10px;
   color: #FFF;
   font-weight: 700;
@@ -245,28 +257,31 @@ li:hover {
   background-color: rgba(79, 99, 103, 0.7);
 }
 
-.goals-wrapper {
-  width: 40%;
-  padding: 10px 30px 0px 20px;
-  margin-left: 20px;
-}
 
 .goal-graph {
   width: 80px;
 }
 
-.goals-text {
-  padding-left: 10px;
-}
-
 .goals-text h4 {
   padding-bottom: 5px;
-  font-weight: 400;
+  font-weight: 700;
+  color: #4f6367;
 }
 
 .goals-text h5 {
   font-size: 12px;
 }
+
+.goals-wrapper {
+  display: flex;
+  width: 20%;
+  padding: 10px 30px 0px 20px;
+  margin-left: 20px;
+  position: absolute;
+  top: 300px;
+  left: 6%;
+}
+
 
 /*SIDE NAV MEDIA QUERY*/
 @media (max-width: 900px) {
@@ -336,8 +351,22 @@ li:hover {
 
   .recent-workouts-div {
     height: 80px;
+    max-width: 270px;
+    width: 100%;
   }
 
+  .goals-wrapper {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px 30px 0px 20px;
+    margin-left: 20px;
+    top: 206px;
+  }
+
+  .goals-text {
+    padding-left: 10px;
+  }
 }
 
 /*MOBILE to DESKTOP MEDIA QUERY*/
