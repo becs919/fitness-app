@@ -1,5 +1,8 @@
 # fitness-app
 
+## Final Comp 
+![Imgur](http://i.imgur.com/w2NFIRLl.png)
+
 ![Imgur](http://i.imgur.com/YpXfno8.png)
 ![Imgur](http://i.imgur.com/PrZHHRV.jpg)
 ![Imgur](http://i.imgur.com/qYeEmoH.jpg)
