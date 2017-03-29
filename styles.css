@@ -73,6 +73,11 @@ li {
   font-weight: 300;
 }
 
+li:hover {
+  background-color: #fe5f55;
+  font-weight: 700;
+}
+
 .selected {
   font-weight: 700;
   background-color: #fe5f55;
@@ -134,6 +139,10 @@ li {
   margin-top: 10px;
   font-size: 14px;
   padding: 15px;
+}
+
+.recent-workouts-div:hover, .goal:hover {
+  opacity: 1;
 }
 
 .recent-workouts-section h3 {
