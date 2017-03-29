@@ -9,6 +9,7 @@ Mobile
 ipad
 ![Imgur](http://i.imgur.com/Jl3jNCYm.png)
 Desktop
+![Imgur](http://i.imgur.com/lDVE39Em.png)
 
 
 ![Imgur](http://i.imgur.com/YpXfno8.png)
