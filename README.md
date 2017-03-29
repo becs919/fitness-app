@@ -1,5 +1,7 @@
 # fitness-app
 
+[Github Pages](https://marissa27.github.io/fitness-app/)
+
 Project Description
 During our Ultimate UX Design project, we walked in the shoes of a designer and a developer to create a fitness app. Once handed the design, we approached the project by developing the mobile version first. Once we had that complete, we moved on to developing the desktop version. We quickly realized that not much of the mobile version was usable in the desktop version. We approached this by creating an ipad version of the desktop version so that we had something to work with that could be responsive. In the end, we used one file to create all three versions and displayed them depending on the screen size.  
 
