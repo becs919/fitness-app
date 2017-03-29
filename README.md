@@ -3,7 +3,7 @@
 ## Final Product
 Mobile 
 ![Imgur](http://i.imgur.com/w2NFIRLm.png)
-Ipad
+ipad
 ![Imgur](http://i.imgur.com/Jl3jNCYm.png)
 Desktop
 
